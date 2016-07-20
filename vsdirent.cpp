@@ -1,5 +1,10 @@
 #include "vsdirent.h"
 
+#include <iostream>
+#include <cstring>
+
+using std::string;
+
 DIR*
 opendir(const char* path)
 {
